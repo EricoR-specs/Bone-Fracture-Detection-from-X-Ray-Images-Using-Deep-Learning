@@ -67,54 +67,6 @@ Output Layer (Softmax)
 
 The model demonstrates excellent generalization with only 0.51% difference between training and validation accuracy.
 
-## 🚀 Installation & Usage
-
-### Prerequisites
-- Python 3.7+
-- TensorFlow 2.x
-- OpenCV
-- scikit-learn
-- Other standard data science libraries
-
-### Installation
-```bash
-git clone https://github.com/your-username/bone-fracture-detection.git
-cd bone-fracture-detection
-pip install -r requirements.txt
-```
-
-### Training the Model
-```python
-python train.py --data_path /path/to/dataset --epochs 50 --batch_size 32
-```
-
-### Making Predictions
-```python
-python predict.py --image_path /path/to/xray_image.jpg
-```
-
-## 📁 Project Structure
-
-```
-bone-fracture-detection/
-├── data/
-│   ├── raw/                 # Original dataset
-│   ├── processed/           # Preprocessed images
-│   └── augmented/          # Augmented images
-├── models/
-│   ├── baseline_model.h5   # Initial model
-│   └── tuned_model.h5      # Optimized model
-├── notebooks/
-│   └── fracture_detection_analysis.ipynb  # Complete analysis
-├── src/
-│   ├── preprocessing.py    # Data preparation
-│   ├── model.py           # Model architecture
-│   ├── train.py           # Training script
-│   └── predict.py         # Prediction script
-├── requirements.txt
-└── README.md
-```
-
 ## 💡 Key Insights
 
 ### Strengths:
@@ -137,16 +89,6 @@ bone-fracture-detection/
 - Model optimization for computational efficiency
 - Integration with medical imaging systems
 
-## 👨‍💻 Author
-
-**Muhammad Erico Ricardo**  
-- GitHub: [Your GitHub Profile]  
-- LinkedIn: [Your LinkedIn Profile]  
-- Email: your.email@example.com
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
